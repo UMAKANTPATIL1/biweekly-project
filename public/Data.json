@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Umakant Patil",
-    "image": "/images/Umakant_Patil.jpg" ,
+    "image": "/images/Umakant.jpeg" ,
     "score_count": 30,
     "team": "MPC"
   },
@@ -15,37 +15,37 @@
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
+    "score_count": 71
+  },
+  {
+    "id": 3,
+    "name": "Pratik Joshi",
+    "image": "/images/pratik.jpg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
-    "score_count": 70
-  },
-  {
-    "id": 3,
-    "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 1,
     "name": "Umakant Patil",
-    "image": "/images/Umakant_Patil.jpg" ,
+    "image": "/images/Umakant.jpeg" ,
     "score_count": 30,
     "team": "MPC"
   },
@@ -58,37 +58,37 @@
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 1,
     "name": "Umakant Patil",
-    "image": "/images/Umakant_Patil.jpg" ,
+    "image": "/images/Umakant.jpeg" ,
     "score_count": 30,
     "team": "MPC"
   },
@@ -101,31 +101,31 @@
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   },
   {
     "id": 3,
     "name": "Umakant Patil",
-    "image": "/images/Umakant.jpg",
+    "image": "/images/Umakant.jpeg",
     "score_count": 70
   }
 ]

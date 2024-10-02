@@ -4,12 +4,12 @@
     position: relative;      /* Enable absolute positioning for child elements */
     border-radius: 8px;
     overflow: hidden;
-    margin: 30px;
+    margin: 20px;
     width: 300px;           /* Card width */
-    height: 400px;          /* Card height */
+    height: auto;          /* Card height */
     text-align: center;
     transition: transform 0.2s;
-    backdrop-filter: blur(10px);  /* Apply blur effect */
+    /*backdrop-filter: blur(0px);   Apply blur effect */
     background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -19,25 +19,25 @@
 }
 
 .card-image {
-    width: 170px;           /* Image width */
-    height: 170px;          /* Image height */
+    width: 140px;           /* Image width */
+    height: 140px;          /* Image height */
     border-radius: 50%;     /* Circular image */
     object-fit: cover;      /* Maintain aspect ratio */
-    margin-top: 20px;       /* Spacing from the top */
+    margin-top: 15px;       /* Spacing from the top */
     position: relative;      /* Ensure it's positioned correctly */
     z-index: 2;             /* Ensure it appears above the background */
 }
 
 .card-content {
-    padding: 15px;          /* Increased padding for content */
+    padding: 5px;          /* Increased padding for content */
     position: relative;      /* Ensure the content is positioned correctly */
     z-index: 1;             /* Place content above the blurred background */
 }
-
+/* 
 .card-title {
-    font-size: 2rem;        /* Larger font size for title */
+    font-size: 2rem;        Larger font size for title
     margin: 0;
-}
+} */
 
 .card-body {
     font-size: 1.2rem;      /* Larger font size for body text */
@@ -45,10 +45,10 @@
 }
 
 .card-author {
-    font-size: 1.1rem;        /* Larger font size for author text */
+    font-size: 1.7rem;        /* Larger font size for author text */
     color: #000000;
     font-family: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .card-container {
@@ -76,13 +76,13 @@
 .divider {
     border: none;              /* Remove default border */
     border-top: 3px solid #15a3fb; /* Set the color and style of the underline */
-    margin: 5px 0;            /* Adjust spacing around the line */
+    margin: 10px 0;            /* Adjust spacing around the line */
 }
 /* src/Card.css */
 
 .medal-container {
     position: absolute;           /* Positioning for the medal */
-    top: 10px;                   /* Adjust top position */
+    top: 5px;                   /* Adjust top position */
     left: 10%;                   /* Center horizontally */
     transform: translateX(-50%); /* Centering correction */
     z-index: 3;                  /* Ensure it's above the card content */

@@ -2,28 +2,32 @@
 
 import React from 'react';
 import '../Components/cards.css' // Import the CSS file for styling
-
-const Cards = ({ body, image, name,score_count,rank }) => {
+// import Row from 'bootstrap'
+// { body, image, name,score_count,rank }
+const Cards = (props) => {
     const renderMedal = () => {
         switch (rank) {
           case 1:
             return <img src="https://thumbs.dreamstime.com/b/number-winner-ribbon-award-badge-gold-medal-white-background-number-winner-ribbon-award-badge-gold-medal-139155753.jpg" alt="Gold Medal" className="medal" />;
           case 2:
-            return <img src="https://w7.pngwing.com/pngs/492/739/png-transparent-euclidean-renault-bodywork-st-bernard-wilrijk-ranking-medal-design-text-orange-logo-thumbnail.png" alt="Silver Medal" className="medal" />;
+            return <img src="https://i.pinimg.com/564x/86/48/60/8648605926a3112f8ac6d0972aba53a8.jpg" alt="Silver Medal" className="medal" />;
           case 3:
-            return <img src="https://png.pngtree.com/png-clipart/20190611/original/pngtree-silver-cup-tournament-ranking-vector-material-png-image_2855416.jpg" alt="Bronze Medal" className="medal" />;
+            return <img src="https://img.freepik.com/premium-vector/third-place-medal-isolated-white-background_666746-130.jpg" alt="Bronze Medal" className="medal" />;
           default:
             return null;
         }
     }
+    const{ body, image, name,score_count,rank }=props
   return (
-    <div className="card">
+   
+    <div className="card ">
       {rank && <div className="medal-container">{renderMedal()}</div>}
       <img src={image} alt={name} className="card-image" />
       <div className="card-content">
         
         <p className="card-body">{body}</p>
         <p className="card-author">{name}</p>
+        <hr className='divider'></hr>
         <p className="card-author">Score Count: {score_count}</p>
       </div>
     </div>
