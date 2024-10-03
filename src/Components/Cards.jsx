@@ -9,7 +9,7 @@ const Cards = (props) => {
     const renderMedal = () => {
         switch (rank) {
           case 1:
-            return <img src="https://img.freepik.com/premium-photo/creative-vibrant-numerical-number-one-1-design-illustration_732449-6845.jpg"style={{background:"transperent"}} alt="Gold Medal" className="medal" />;
+            return <img src="https://img.freepik.com/free-vector/number-one-star-label-golden-color_1017-32238.jpg"style={{background:'transparent'}} alt="Gold Medal" className="medal" />;
           case 2:
             return <img src="https://i.pinimg.com/564x/86/48/60/8648605926a3112f8ac6d0972aba53a8.jpg" alt="Silver Medal" className="medal" />;
           case 3:
@@ -18,12 +18,13 @@ const Cards = (props) => {
             return null;
         }
     }
-    const{ body, image, name,score_count,rank }=props
+    const{ id,body, image, name,score_count,rank }=props
   return (
    <>
    
     <div className="card ">
       {rank && <div className="medal-container">{renderMedal()}</div>}
+      <div className='card-author emp-id'>{id}</div>
       <img src={image} alt={name} className="card-image" />
       <div className="card-content">
         
