@@ -2,13 +2,14 @@
 
 import React from 'react';
 import '../Components/cards.css' // Import the CSS file for styling
+
 // import Row from 'bootstrap'
 // { body, image, name,score_count,rank }
 const Cards = (props) => {
     const renderMedal = () => {
         switch (rank) {
           case 1:
-            return <img src="https://thumbs.dreamstime.com/b/number-winner-ribbon-award-badge-gold-medal-white-background-number-winner-ribbon-award-badge-gold-medal-139155753.jpg" alt="Gold Medal" className="medal" />;
+            return <img src="https://img.freepik.com/premium-photo/creative-vibrant-numerical-number-one-1-design-illustration_732449-6845.jpg"style={{background:"transperent"}} alt="Gold Medal" className="medal" />;
           case 2:
             return <img src="https://i.pinimg.com/564x/86/48/60/8648605926a3112f8ac6d0972aba53a8.jpg" alt="Silver Medal" className="medal" />;
           case 3:
@@ -19,6 +20,7 @@ const Cards = (props) => {
     }
     const{ body, image, name,score_count,rank }=props
   return (
+   <>
    
     <div className="card ">
       {rank && <div className="medal-container">{renderMedal()}</div>}
@@ -31,6 +33,7 @@ const Cards = (props) => {
         <p className="card-author">Score Count: {score_count}</p>
       </div>
     </div>
+    </>
   );
 };
 

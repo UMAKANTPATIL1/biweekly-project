@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 import Cards from '../Components/Cards'; // Import the Card component
 // import './LocalDataFetcher.css'; // Import additional CSS for layout
 import '../Components/cards.css'
+import BgVideo from './BgVideo';
+import bgVideo from "../assets/intro_bg.mp4"
 
 const LocalDataFetcher = () => {
   const [data, setData] = useState([]);
@@ -40,11 +42,14 @@ const LocalDataFetcher = () => {
   }));
 
   return (
-    <div className="card-container">
+    <>
+    <BgVideo videoSrc={bgVideo} loop={true} />
+    <div className="card-container row-3">
       {rankedCardData.map(item => (
         <Cards key={item.id} title={item.title} body={item.body} image={item.image} name={item.name} score_count={item.score_count} rank={item.rank} />
       ))}
     </div>
+    </>
   );
 };
 
